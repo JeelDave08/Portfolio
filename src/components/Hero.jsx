@@ -46,7 +46,7 @@ const Hero = () => {
                                 View Projects
                                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                             </a>
-                            <a href="https://drive.google.com/file/d/1KO1fvEe5Kg68HyzRFFET4HI27B9A0Fz7/view?usp=drivesdk" download className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2 group " target='_blank'>
+                            <a href="https://drive.google.com/file/d/19GbbRpk24iBXtUOj5duDPG6qzvqgxMfo/view?usp=sharing" download className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2 group " target='_blank'>
                                 <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
                                 Resume
                             </a>
