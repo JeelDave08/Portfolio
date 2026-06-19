@@ -46,7 +46,7 @@ const Hero = () => {
                                 View Projects
                                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                             </a>
-                            <a href="https://drive.google.com/file/d/1H6r0Arthcr52aoqZMIz0gj_jtq3QDhB5/view?usp=sharing" download className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2 group " target='_blank'>
+                            <a href="https://drive.google.com/file/d/1KO1fvEe5Kg68HyzRFFET4HI27B9A0Fz7/view?usp=drivesdk" download className="btn-outline w-full sm:w-auto flex items-center justify-center gap-2 group " target='_blank'>
                                 <Download size={18} className="group-hover:-translate-y-1 transition-transform" />
                                 Resume
                             </a>
@@ -71,7 +71,7 @@ const Hero = () => {
                             {/* Image Container */}
                             <div className="relative w-full h-full rounded-full border-4 border-white dark:border-darkBg shadow-2xl overflow-hidden bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
                                 {/* Placeholder for actual photo, using geometric shape for now */}
-                                <div className="text-9xl"> 🧑‍💻</div>
+                                <div className="text-9xl"> 👩‍💻</div>
 
                                 {/* Optional: Add actual image path below when available */}
                                 { /*<img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover" /> */}

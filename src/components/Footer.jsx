@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Social Links */}
                 <div className="flex space-x-6 mb-8">
                     <a
-                        href="https://github.com/karanudani3011"
+                        href="https://github.com/JeelDave08"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
@@ -19,7 +19,7 @@ const Footer = () => {
                         <Github size={24} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/karan-udani-web-developer/"
+                        href="https://www.linkedin.com/in/jeel-dave-b9976935b/?originalSubdomain=in"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
@@ -28,7 +28,7 @@ const Footer = () => {
                         <Linkedin size={24} />
                     </a>
                     <a
-                        href="mailto:karanudani30@gmail.com"
+                        href="mailto:jeeldave8@gmail.com"
                         className="text-slate-500 hover:text-softBlue-600 dark:text-slate-400 dark:hover:text-softBlue-400 transition-colors duration-300 transform hover:-translate-y-1"
                         aria-label="Email"
                     >
@@ -41,6 +41,7 @@ const Footer = () => {
                     <a href="#about" className="hover:text-softBlue-600 dark:hover:text-softBlue-400 transition-colors">About</a>
                     <a href="#projects" className="hover:text-softBlue-600 dark:hover:text-softBlue-400 transition-colors">Projects</a>
                     <a href="#experience" className="hover:text-softBlue-600 dark:hover:text-softBlue-400 transition-colors">Experience</a>
+                    <a href="#certifications" className="hover:text-softBlue-600 dark:hover:text-softBlue-400 transition-colors">Certifications</a>
                     <a href="#contact" className="hover:text-softBlue-600 dark:hover:text-softBlue-400 transition-colors">Contact</a>
                 </div>
 

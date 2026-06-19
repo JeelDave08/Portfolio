@@ -1,30 +1,35 @@
 import { motion } from 'framer-motion';
-import { Briefcase, Trophy, GraduationCap, Calendar } from 'lucide-react';
+import { Briefcase, Trophy, GraduationCap, Calendar, ExternalLink } from 'lucide-react';
 
 const Experience = () => {
     const experiences = [
         {
             title: 'Full Stack Developer',
             company: 'Freelance / Personal Projects',
-            date: 'Jan 2025 - Present',
+            date: 'Jan 2026 - Present',
             description: 'Developed and maintained various web applications including an AI Code Detector and a medical assistant platform. Specialized in React framework and modern backend technologies.',
             icon: <Briefcase size={20} className="text-white" />,
             color: 'bg-softBlue-600'
         },
         {
-            title: 'AI Integration Specialist',
-            company: 'Self-Directed Learning',
-            date: 'Jun 2024 - Present',
-            description: 'Integrated LLMs (Llama3, Groq API) into applications. Created smart payment agents and text analysis tools leveraging LangChain.',
-            icon: <GraduationCap size={20} className="text-white" />,
-            color: 'bg-slate-800 dark:bg-slate-600'
+            title: 'PHP Developer Intern',
+            company: 'Sharav Infotech Private Limited, Rajkot',
+            date: 'July 2024 - Dec 2024',
+            description: 'Trained in PHP, MySQL, and Laravel; built full-stack features independently. Developed and maintained 2 production websites using PHP and Laravel. Integrated MySQL databases for dynamic content management and data storage. Contributed to debugging, performance optimization, and code reviews.',
+            icon: <Briefcase size={20} className="text-white" />,
+            color: 'bg-emerald-600',
+            certificate: {
+                label: 'View PDF',
+                link: '/certificates/phpinternship.pdf'
+            }
         },
+ 
 
         {
             title: 'Bachelor of Computer Applications (BCA)',
-            company: 'Atmiya University',
+            company: 'MVM College, Rajkot',
             date: '2022 - 2025',
-            description: 'Focused on software development, web technologies, and database management. Completed projects in AI, web development, and backend systems.',
+            description: 'Completed BCA with coursework in software development, web technologies, database systems, and application management. Gained practical experience in PHP, ASP.NET, and MySQL projects.',
             icon: <GraduationCap size={20} className="text-white" />,
             color: 'bg-blue-700 dark:bg-blue-500'
         },
@@ -39,14 +44,7 @@ const Experience = () => {
             color: 'bg-blue-700 dark:bg-blue-500'
 
         },
-        {
-            title: 'Hackathon Participant',
-            company: 'Tech Innovators Hackathon',
-            date: 'Nov 2024',
-            description: 'Collaborated with a team of developers to build a smart hospital management prototype within 48 hours. Focused on the backend architecture using PHP and MySQL.',
-            icon: <Trophy size={20} className="text-white" />,
-            color: 'bg-softBlue-500'
-        }
+      
     ];
 
     return (
@@ -102,6 +100,17 @@ const Experience = () => {
                                         <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
                                             {exp.description}
                                         </p>
+                                        {exp.certificate && (
+                                            <a
+                                                href={exp.certificate.link.trim()}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 mt-6 text-softBlue-600 dark:text-softBlue-400 font-medium hover:text-softBlue-700 dark:hover:text-softBlue-300 transition-colors"
+                                            >
+                                                {exp.certificate.label}
+                                                <ExternalLink size={16} />
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
 

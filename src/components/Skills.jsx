@@ -3,35 +3,61 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skillCategories = [
         {
-            title: 'Frontend',
+            title: 'Programming / Development',
             skills: [
-                { name: 'HTML', level: 90 },
-                { name: 'CSS', level: 70 },
+                { name: 'PHP', level: 85 },
                 { name: 'JavaScript', level: 80 },
-                { name: 'React.js', level: 80 },
-                { name: 'Tailwind CSS', level: 90 },
+                { name: 'Python (Basic)', level: 65 },
+                { name: 'ASP.NET', level: 80 },
+                { name: 'OOP Concepts', level: 80 },
             ]
         },
         {
-            title: 'Backend',
+            title: 'Frontend',
             skills: [
-                { name: 'PHP', level: 80 },
-                { name: 'Node.js', level: 60 },
+                { name: 'React.js', level: 80 },
+                { name: 'HTML', level: 90 },
+                { name: 'CSS', level: 75 },
+                { name: 'Vite', level: 75 },
+            ]
+        },
+        {
+            title: 'Backend / Frameworks',
+            skills: [
+                { name: 'Laravel', level: 75 },
+                { name: 'Node.js', level: 75 },
+                { name: 'ASP.NET', level: 80 },
             ]
         },
         {
             title: 'Database',
             skills: [
                 { name: 'MySQL', level: 85 },
-                { name: 'MongoDB', level: 70 },
             ]
         },
         {
-            title: 'AI Tools',
+            title: 'Concepts & Architecture',
             skills: [
-                { name: 'LangChain', level: 65 },
-                { name: 'Llama3', level: 60 },
-                { name: 'Groq API', level: 70 },
+                { name: 'OOP', level: 80 },
+                { name: 'MVC', level: 80 },
+                { name: 'REST APIs', level: 80 },
+                { name: 'Web Dev Fundamentals', level: 85 },
+            ]
+        },
+        {
+            title: 'Tools & Version Control',
+            skills: [
+                { name: 'Git', level: 85 },
+                { name: 'GitHub', level: 80 },
+                { name: 'VS Code', level: 85 },
+            ]
+        },
+        {
+            title: 'Soft Skills',
+            skills: [
+                { name: 'Communication', level: 85 },
+                { name: 'Problem Solving', level: 85 },
+                { name: 'Teamwork', level: 80 },
             ]
         }
     ];
