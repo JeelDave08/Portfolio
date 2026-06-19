@@ -72,5 +72,5 @@ Feel free to fork this repo and improve it!
 
 📧 Contact
 
-Karan Udani
+jeel Udani
 GitHub: https://github.com/karanudani3011
